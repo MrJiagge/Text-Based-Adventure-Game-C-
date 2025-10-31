@@ -12,3 +12,4 @@ C:\Users\mrjia\OneDrive - All Hallows Catholic School\Text Based Adventure Game 
 C:\Users\mrjia\OneDrive - All Hallows Catholic School\Text Based Adventure Game C#\Text Based Adventure Game\obj\Debug\net9.0\Text Based Adventure Game.pdb
 C:\Users\mrjia\OneDrive - All Hallows Catholic School\Text Based Adventure Game C#\Text Based Adventure Game\obj\Debug\net9.0\Text Based Adventure Game.genruntimeconfig.cache
 C:\Users\mrjia\OneDrive - All Hallows Catholic School\Text Based Adventure Game C#\Text Based Adventure Game\obj\Debug\net9.0\ref\Text Based Adventure Game.dll
+C:\Users\mrjia\OneDrive - All Hallows Catholic School\Text Based Adventure Game C#\Text Based Adventure Game\obj\Debug\net9.0\Text Based Adventure Game.sourcelink.json

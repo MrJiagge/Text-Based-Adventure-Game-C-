@@ -3,10 +3,10 @@
 class Program
 {
 	// all possible directions
-	const string NORTH = "NORTH";
-	const string SOUTH = "SOUTH";
-	const string EAST = "EAST";
-	const string WEST = "WEST";
+	const string NORTH = "North";
+	const string SOUTH = "South";
+	const string EAST = "East";
+	const string WEST = "West";
 
 	// each function returns what the user sees in the square
 	static string Square1()
