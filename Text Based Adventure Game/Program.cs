@@ -63,7 +63,7 @@ class Program
 		return message;
 	}
 
-
+	// Increasing to 4x4 (16 squares) later would need to change the 'CanMove' functions and 'CalculateNewPosition'
 
 	/* 
 	Grid:
