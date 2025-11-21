@@ -1,315 +1,264 @@
-﻿using System; 
+﻿using System;
 
-  
+class Program
 
-class Program 
+{
 
-{ 
+  static int menu(string options) {
 
-  
+    Console.WriteLine("Possible Directions:");
 
-/* 1  2   3   4 
+    foreach(char c in options){
+		switch (c) {
+			case 'N':
+				Console.WriteLine("N: North");
+				break;
+			case 'E':
+				Console.WriteLine("E: East");
+				break;
+			case 'S':
+				Console.WriteLine("S: South");
+				break;
+			case 'W':
+				Console.WriteLine("W: West");
+				break;
+		}
+	}
 
-5  6   7   8 
 
-9  10  11 12 
+    return 0;
 
-13 14  15  16 
+  }
 
-*/ 
+  static void backpack() {}
 
-static int menu(string options) { 
+  static int Square1()
 
-Console.WriteLine("Possible Directions:"); 
+  {
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.\nYou can see huge walls looming over you.";
 
-  
+    Console.WriteLine(message);
 
-foreach (char c in options) 
+    int nextSquare = menu("SE");
 
-{ 
+    return nextSquare;
 
-if (c == 'N'){ 
+  }
 
-Console.WriteLine("- North"); 
+  static int Square2()
 
-} 
+  {
 
-} 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-return 0; 
+    Console.WriteLine(message);
 
-} 
+    int nextSquare = menu("ESW");
 
-  
+    return nextSquare;
 
-  
+  }
 
-static void backpack(){} 
+  static int Square3()
 
-  
+  {
 
-static int Square1() 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-{ 
+    Console.WriteLine(message);
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    int nextSquare = menu("ESW");
 
-Console.WriteLine(message); 
+    return nextSquare;
 
-int nextSquare = menu("SE"); 
+  }
 
-return nextSquare; 
+  static int Square4()
 
-} 
+  {
 
-  
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-static int Square2() 
+    Console.WriteLine(message);
 
-{ 
+    int nextSquare = menu("SW");
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    return nextSquare;
 
-Console.WriteLine(message); 
+  }
 
-int nextSquare = menu("ESW"); 
+  static int Square5()
 
-return nextSquare; 
+  {
 
-} 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-  
+    Console.WriteLine(message);
 
-static int Square3() 
+    int nextSquare = menu("NES");
 
-{ 
+    return nextSquare;
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  }
 
-Console.WriteLine(message); 
+  static int Square6()
 
-int nextSquare = menu("ESW"); 
+  {
 
-return nextSquare; 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-} 
+    Console.WriteLine(message);
 
-  
+    int nextSquare = menu("NESW");
 
-static int Square4() 
+    return nextSquare;
 
-{ 
+  }
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  static int Square7()
 
-Console.WriteLine(message); 
+  {
 
-int nextSquare = menu("SW"); 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-return nextSquare; 
+    Console.WriteLine(message);
 
-} 
+    int nextSquare = menu("NESW");
 
-  
+    return nextSquare;
 
-static int Square5() 
+  }
 
-{ 
+  static int Square8()
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  {
 
-Console.WriteLine(message); 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-int nextSquare = menu("NES"); 
+    Console.WriteLine(message);
 
-return nextSquare; 
+    int nextSquare = menu("NSW");
 
-} 
+    return nextSquare;
 
-  
+  }
 
-static int Square6() 
+  static int Square9()
 
-{ 
+  {
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-Console.WriteLine(message); 
+    Console.WriteLine(message);
 
-int nextSquare = menu("NESW"); 
+    int nextSquare = menu("NES");
 
-return nextSquare; 
+    return nextSquare;
 
-} 
+  }
 
-  
+  static int Square10()
 
-static int Square7() 
+  {
 
-{ 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    Console.WriteLine(message);
 
-Console.WriteLine(message); 
+    int nextSquare = menu("NESW");
 
-int nextSquare = menu("NESW"); 
+    return nextSquare;
 
-return nextSquare; 
+  }
 
-} 
+  static int Square11()
 
-  
+  {
 
-static int Square8() 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-{ 
+    Console.WriteLine(message);
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    int nextSquare = menu("NESW");
 
-Console.WriteLine(message); 
+    return nextSquare;
 
-int nextSquare = menu("NSW"); 
+  }
 
-return nextSquare; 
+  static int Square12()
 
-} 
+  {
 
-  
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-static int Square9() 
+    Console.WriteLine(message);
 
-{ 
+    int nextSquare = menu("ESW");
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+    return nextSquare;
 
-Console.WriteLine(message); 
+  }
 
-int nextSquare = menu("NES"); 
+  static int Square13()
 
-return nextSquare; 
+  {
 
-} 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-  
+    Console.WriteLine(message);
 
-static int Square10() 
+    int nextSquare = menu("NE");
 
-{ 
+    return nextSquare;
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  }
 
-Console.WriteLine(message); 
+  static int Square14()
 
-int nextSquare = menu("NESW"); 
+  {
 
-return nextSquare; 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-} 
+    Console.WriteLine(message);
 
-  
+    int nextSquare = menu("NEW");
 
-static int Square11() 
+    return nextSquare;
 
-{ 
+  }
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  static int Square15()
 
-Console.WriteLine(message); 
+  {
 
-int nextSquare = menu("NESW"); 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-return nextSquare; 
+    Console.WriteLine(message);
 
-} 
+    int nextSquare = menu("NEW");
 
-  
+    return nextSquare;
 
-static int Square12() 
+  }
 
-{ 
+  static int Square16()
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  {
 
-Console.WriteLine(message); 
+    string message = "This is square number 1. You are at the entrace of a mysterious castle.";
 
-int nextSquare = menu("ESW"); 
+    Console.WriteLine(message);
 
-return nextSquare; 
+    int nextSquare = menu("NW");
 
-} 
+    return nextSquare;
 
-  
+  }
 
-static int Square13() 
+  static void Main() {
 
-{ 
+    Square1();
 
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
+  }
 
-Console.WriteLine(message); 
-
-int nextSquare = menu("NE"); 
-
-return nextSquare; 
-
-} 
-
-  
-
-static int Square14() 
-
-{ 
-
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
-
-Console.WriteLine(message); 
-
-int nextSquare = menu("NEW"); 
-
-return nextSquare; 
-
-} 
-
-  
-
-static int Square15() 
-
-{ 
-
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
-
-Console.WriteLine(message); 
-
-int nextSquare = menu("NEW"); 
-
-return nextSquare; 
-
-} 
-
-static int Square16() 
-
-{ 
-
-string message = "This is square number 1. You are at the entrace of a mysterious castle."; 
-
-Console.WriteLine(message); 
-
-int nextSquare = menu("NW"); 
-
-return nextSquare; 
-
-} 
-
-  
-
-static void Main(){ 
-
-Square1(); 
-
-} 
-
-  
-
-} 
-
-} 
+}
