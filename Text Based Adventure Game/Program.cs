@@ -303,7 +303,7 @@ class Program
 
   static void Main() {
 
-	// each index starts from 0, so square 1 is index 0
+	// each index starts from 0, so square 1 is index 0 and square 16 is index 15
 	string[][] items_in_square_list = new string[16][] {
 		new string[] {"Key", "Map"},
 		new string[] {"Flashlight"},
