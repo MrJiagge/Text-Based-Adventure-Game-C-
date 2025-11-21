@@ -34,7 +34,7 @@ class Program
 	}
 
 	string choice;
-	do{
+	do {
 		Console.WriteLine("Choose your move wisely: ");
 		choice = Console.ReadLine().ToUpper().Trim();
 	} while (!options.Contains(choice));
@@ -51,11 +51,7 @@ class Program
 		nextSquare = currentSquare - 1;
 	} else if (choice == "B"){
 		Console.WriteLine("You opened your backpack. It's empty for now.");
-		nextSquare = currentSquare; // Stay in the same square
-	}
-//	
-	Console.WriteLine($"New square is number {nextSquare}");
-
+	}	
 
 	return nextSquare;
 
@@ -303,6 +299,43 @@ class Program
   }
 
   static void Main() {
+
+	string[[]] items_in_square_list = new string[16][] {
+		new string[] {"Key", "Map"},
+		new string[] {"Flashlight"},
+		new string[] {},
+		new string[] {"Rope"},
+		new string[] {"Potion"},
+		new string[] {},
+		new string[] {"Sword"},
+		new string[] {},
+		new string[] {"Shield"},
+		new string[] {},
+		new string[] {"Helmet"},
+		new string[] {},
+		new string[] {"Boots"},
+		new string[] {},
+		new string[] {"Gloves"},
+		new string[] {}
+	};
+	
+	string[] backpack = new string[10];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	int nextSquare = Square1();
 	while (true)
 	{
