@@ -26,6 +26,9 @@ class Program
 			case 'B':
 				Console.WriteLine("B: Open Backpack");
 				break;
+			case 'P':
+				Console.WriteLine("P: Pick up item");
+				break;
 			case'-':
 				// Do nothing for separator
 				break;
@@ -67,7 +70,7 @@ class Program
 
     Console.WriteLine(message);
 
-    int nextSquare = menu("B-SE", squareNumber);
+    int nextSquare = menu("BP-SE", squareNumber);
 
     return nextSquare;
 
@@ -300,7 +303,8 @@ class Program
 
   static void Main() {
 
-	string[[]] items_in_square_list = new string[16][] {
+	// each index starts from 0, so square 1 is index 0
+	string[][] items_in_square_list = new string[16][] {
 		new string[] {"Key", "Map"},
 		new string[] {"Flashlight"},
 		new string[] {},
@@ -318,7 +322,7 @@ class Program
 		new string[] {"Gloves"},
 		new string[] {}
 	};
-	
+
 	string[] backpack = new string[10];
 
 
