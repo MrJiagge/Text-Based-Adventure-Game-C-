@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text Based Adventure Game\\Text Based Adventure Game.csproj": {}
+    "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text-Based-Adventure-Game-C-\\Text-Based-Adventure-Game-C-\\Text Based Adventure Game\\Text Based Adventure Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text Based Adventure Game\\Text Based Adventure Game.csproj": {
+    "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text-Based-Adventure-Game-C-\\Text-Based-Adventure-Game-C-\\Text Based Adventure Game\\Text Based Adventure Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text Based Adventure Game\\Text Based Adventure Game.csproj",
+        "projectUniqueName": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text-Based-Adventure-Game-C-\\Text-Based-Adventure-Game-C-\\Text Based Adventure Game\\Text Based Adventure Game.csproj",
         "projectName": "Text Based Adventure Game",
-        "projectPath": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text Based Adventure Game\\Text Based Adventure Game.csproj",
+        "projectPath": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text-Based-Adventure-Game-C-\\Text-Based-Adventure-Game-C-\\Text Based Adventure Game\\Text Based Adventure Game.csproj",
         "packagesPath": "C:\\Users\\mrjia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text Based Adventure Game\\obj\\",
+        "outputPath": "C:\\Users\\mrjia\\OneDrive - All Hallows Catholic School\\Text Based Adventure Game C#\\Text-Based-Adventure-Game-C-\\Text-Based-Adventure-Game-C-\\Text Based Adventure Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mrjia\\AppData\\Roaming\\NuGet\\NuGet.Config"
